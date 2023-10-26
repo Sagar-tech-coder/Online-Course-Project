@@ -1,0 +1,108 @@
+@media screen and (max-width: 900px) {
+    .sm-heading{
+        height: 85px;
+        display: flex;
+        justify-content: space-between;
+        /* text-align: center; */
+        align-items: center;
+        padding: 15px 17px;
+        background-color: #FFD05C;
+    }
+    
+    #text-heading{
+        color: #333333;
+        line-height: 21px;
+        position: relative;
+        left: 0;
+        font-size: 14px;
+        letter-spacing: 1;
+    }
+
+    #navbar{
+        display: none;
+    }
+
+    #hamburger-nav{
+        display: flex;
+        height: 80px;
+        width: 100%;
+    }
+
+    nav{
+        width: 100%;
+    }
+    
+    a.active,a:hover{
+        color: #ff7d55;
+        transition: 1.5s ease;
+    }
+    
+    .logo{
+        height: 70px;
+        width: 100%;
+        padding: 15px 25px;
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .menu-btn{
+        font-size: 30px;
+        color: #000;
+        float: right;
+        line-height: 80px;
+        cursor: pointer;
+    }
+    
+    #check{
+        display: none;
+    }
+    
+    .close-btn{
+        font-size: 30px;
+        color: #000;
+        float: right;
+        line-height: 80px;
+        cursor: pointer;
+        display: none;
+    }
+    
+    ul{
+        color: #333333;
+        position: absolute;
+        width: 100%;
+        height: fit-content;
+        /* background: rgb(209, 195, 170); */
+        background-color: #fff;
+        top: -100%;
+        left: 0;
+        text-align: start;
+        transition: all 0.7s;
+        margin-top: 148px;
+    }
+    
+    nav ul li{
+        display: block;
+        padding: 20px;
+    }
+    
+    nav ul li a{
+        font-size: 15px;
+    }
+    
+    a:hover, a.active{
+        color: #ff7d55;
+    }
+    
+    a#txt-contact{
+        border: 2px solid #333333;
+        display: block;
+        text-align: center;
+        padding: 15px 0px;
+    }
+    
+    #check:checked ~ ul{
+        top: 0;
+    }
+}

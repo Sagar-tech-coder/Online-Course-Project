@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Ecolabs</title>
+    <link rel="stylesheet" href="course.css">
+    <link rel="stylesheet" href="@media_course.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <!-- favicon -->
+    <link rel="icon" href="/assets/logo.jpg">
+    <!-- icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- font awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        /* body{
+            background-color: blueviolet;
+        } */
+    </style>
+</head>
+<body>
+    <!-- maincontainer div -->
+    <div id="maincontainer">
+        <!-- small heading -->
+        <div class="sm-heading h-8 flex w-full items-center relative py-10px px-40px text-center bg-yellow-400">
+            <div class="text-heading w-full">Let's join new friends and new year learning experience. click for get started!</div>
+            <a class="text-delete" href="#"><img src="/assets/asset 0.svg" alt=""></a>
+        </div>
+        <!-- navbar -->
+        <div id="navbar">
+            <div class="logo"><a href="index.html"><img src="/assets/asset 1.svg" alt=""></a></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a class="activated" href="course.html">Courses</a></li>
+                <li><a href="#">Teachers</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#" id="contact-text">Contact</a></li>
+            </ul>
+        </div>
+        <!-- Hamburger Menu -->
+        <nav id="hamburger-nav">
+            <input type="checkbox" id="check">
+            <!-- <label for="check">
+                <i class="ri-menu-3-line menu-btn"></i>
+            </label> -->
+            <div class="logo">
+                <a href="index.html"><img src="/assets/asset 1.svg" alt=""></a>
+                <label for="check" class="check-btn">
+                    <i class="ri-menu-3-line menu-btn"></i>
+                </label>
+                <!-- <i class="ri-menu-3-line menu-btn"></i> -->
+                <!-- <i class="ri-close-line close-btn"></i> -->
+            </div>
+            <ul class="mainMenu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#" >About</a></li>
+                <li><a href="course.html" >Courses</a></li>
+                <li><a href="#" >Teachers</a></li>
+                <li><a href="#" >Blog</a></li>
+                <li><a href="#"  id="txt-contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="container">
+            <!-- page title section -->
+            <div class="page-title-section">
+                <div class="course-title">
+                    <h1 class="page-title">Browse Courses</h1>
+                    <div class="sub-title">Along with professional, we are up with exclusive school courses as well.</div>
+                </div>
+                <div class="course-filter">
+                    <select name="" id="select">
+                        <option value="0">Select Course Type</option>
+                        <option value="all">All</option>
+                        <option value="design">Design</option>
+                        <option value="development">Development</option>
+                        <option value="seo-marketing">SEO Marketing</option>
+                    </select>
+                </div>
+            </div>
+            <!-- course list section -->
+            <section id="course-list-section">
+                <!-- course list -->
+                <div class="course-list">
+                    <!-- box 1 -->
+                    <div class="course-box">
+                        <a href="#">
+                            <div id="course-img1" class="course-media">
+                                <span class="course-price">$90.00</span>
+                            </div>
+                            <div class="course-info">
+                                <h5>The Complete Copywrting & SEO Course</h5>
+                                <div class="lesson-txt">17 LESSON</div>
+                                <p>Nisi accumsan lacusest lectus molestie sed pellentesque vitae</p>
+                                <div class="course-teacher">
+                                    <div class="teacher-img">
+                                        <img src="/assets/asset 33.jpeg" alt="">
+                                    </div>
+                                    <p class="teacher-name"><span>by</span>Albert Flores</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- box 2 -->
+                    <div class="course-box">
+                        <a href="#">
+                            <div id="course-img2" class="course-media">
+                                <span class="course-price">$90.00</span>
+                            </div>
+                            <div class="course-info">
+                                <h5>The Complete Copywrting & SEO Course</h5>
+                                <div class="lesson-txt">17 LESSON</div>
+                                <p>Nisi accumsan lacusest lectus molestie sed pellentesque vitae</p>
+                                <div class="course-teacher">
+                                    <div class="teacher-img">
+                                        <img src="/assets/asset 33.jpeg" alt="">
+                                    </div>
+                                    <p class="teacher-name"><span>by</span>Albert Flores</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- box 3 -->
+                    <div class="course-box">
+                        <a href="#">
+                            <div id="course-img3" class="course-media">
+                                <span class="course-price">$90.00</span>
+                            </div>
+                            <div class="course-info">
+                                <h5>The Complete Copywrting & SEO Course</h5>
+                                <div class="lesson-txt">17 LESSON</div>
+                                <p>Nisi accumsan lacusest lectus molestie sed pellentesque vitae</p>
+                                <div class="course-teacher">
+                                    <div class="teacher-img">
+                                        <img src="/assets/asset 33.jpeg" alt="">
+                                    </div>
+                                    <p class="teacher-name"><span>by</span>Albert Flores</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- box 4 -->
+                    <div class="course-box">
+                        <a href="#">
+                            <div id="course-img4" class="course-media">
+                                <span class="course-price">$90.00</span>
+                            </div>
+                            <div class="course-info">
+                                <h5>The Complete Copywrting & SEO Course</h5>
+                                <div class="lesson-txt">17 LESSON</div>
+                                <p>Nisi accumsan lacusest lectus molestie sed pellentesque vitae</p>
+                                <div class="course-teacher">
+                                    <div class="teacher-img">
+                                        <img src="/assets/asset 33.jpeg" alt="">
+                                    </div>
+                                    <p class="teacher-name"><span>by</span>Albert Flores</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- box 5 -->
+                    <div class="course-box">
+                        <a href="#">
+                            <div id="course-img5" class="course-media">
+                                <span class="course-price">$90.00</span>
+                            </div>
+                            <div class="course-info">
+                                <h5>The Complete Copywrting & SEO Course</h5>
+                                <div class="lesson-txt">17 LESSON</div>
+                                <p>Nisi accumsan lacusest lectus molestie sed pellentesque vitae</p>
+                                <div class="course-teacher">
+                                    <div class="teacher-img">
+                                        <img src="/assets/asset 33.jpeg" alt="">
+                                    </div>
+                                    <p class="teacher-name"><span>by</span>Albert Flores</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- box 6 -->
+                    <div class="course-box">
+                        <a href="#">
+                            <div id="course-img6" class="course-media">
+                                <span class="course-price">$90.00</span>
+                            </div>
+                            <div class="course-info">
+                                <h5>The Complete Copywrting & SEO Course</h5>
+                                <div class="lesson-txt">17 LESSON</div>
+                                <p>Nisi accumsan lacusest lectus molestie sed pellentesque vitae</p>
+                                <div class="course-teacher">
+                                    <div class="teacher-img">
+                                        <img src="/assets/asset 33.jpeg" alt="">
+                                    </div>
+                                    <p class="teacher-name"><span>by</span>Albert Flores</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- next btn -->
+                <div id="nextBtn">
+                    <a href="#" class="btn">Next</a>
+                </div>
+            </section>
+            <!-- still thinking about it -->
+            <div class="still-thinking">
+                <h2 class="still-heading">Still thinking about it?</h2>
+                <p class="still-desc">Sign up for our newsletter and get 10% off your next course.</p>
+                <div class="input-boxBtn">
+                    <input type="email" placeholder="Enter your email here">
+                    <a href="#" class="signup-btn">Sign up Now</a>
+                </div>
+            </div>
+            <!-- eight section (footer section) -->
+            <footer id="footer">
+                <!-- footer top -->
+                <div class="footer-top">
+                    <!-- footer left -->
+                    <div class="ft-left">
+                        <!-- footer logo -->
+                        <a href="index.html"><img src="/assets/asset 24.svg" class="ft-logo" alt=""></a>
+                        <div class="ft-links">
+                            <ul>
+                                <li><a href="home.html">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="course.html">Courses</a></li>
+                                <li><a href="#">Teachers</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                            <!-- footer icons -->
+                            <div class="ft-icons">
+                                <a href="https://www.twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/thesagarpatra/"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer bottom -->
+                <div class="footer-bottom">
+                    <div class="copyright-txt">Designed by <a href="https://www.linkedin.com/in/thesagarpatra/">Sagar Patra</a>. Powered by <a href="#">Sagar</a>.</div>
+                    <div class="ft-rightLinks">
+                        <a href="#">Style Guide</a>
+                        <a href="#">Licensing</a>
+                        <a href="#">Changelog</a>
+                    </div>
+                </div>
+            </footer>
+            <!-- container ends -->
+        </div>
+        <!-- maincontainer ends -->
+    </div>
+    <!-- adding JS -->
+    <script src="script.js"></script>
+</body>
+</html>
