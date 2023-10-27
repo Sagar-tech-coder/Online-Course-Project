@@ -83,6 +83,10 @@
         margin-top: 148px;
         z-index: 1;
     }
+
+    .mainMenu{
+        z-index: 100;
+    }
     
     nav ul li{
         display: block;
