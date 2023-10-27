@@ -1,9 +1,35 @@
 let textDelete = document.querySelector(".text-delete");
 let smallHeading = document.querySelector(".sm-heading");
+let contactText = document.querySelector("#contact-text");
+let showPopup = document.querySelector(".popup-container");
+let closePopup = document.querySelector(".fa-regular");
+let c = document.querySelector("#maincontainer");
+const overlay = document.querySelector(".overlay");
 
 textDelete.addEventListener("click", function(){
     smallHeading.remove();
-})
+});
+
+contactText.addEventListener("click", function(){
+  // c.style.filter = "blur(5px)";
+  document.querySelector(".popup-container").style.display = "block";
+  showPopup.classList.add("active");
+  overlay.classList.add("overlayactive");
+  // document.body.style.filter = "blur(5px)";
+});
+
+closePopup.addEventListener("click", function(){
+  document.querySelector(".popup-container").style.display = "none";
+  showPopup.classList.remove("active");
+  overlay.classList.remove("overlayactive");
+});
+
+// function blur(){
+//   document.body.style.filter = "blur(5px)";
+// };
+
+
+
 
 /* Menu JS */
 /*

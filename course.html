@@ -38,13 +38,47 @@
             <div class="logo"><a href="index.html"><img src="/assets/asset 1.svg" alt=""></a></div>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">About</a></li>
                 <li><a class="activated" href="course.html">Courses</a></li>
                 <li><a href="#">Teachers</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#" id="contact-text">Contact</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#" id="contact-text" onclick="blur()">Login</a></li>
+                <!-- <label for="show"><li><a href="#" for="show" id="contact-text">Contact</a></li></label> -->
             </ul>
         </div>
+        <!-- Popup Login/SignUp -->
+        <div id="popup">
+            <div class="popup-container">
+                <!-- <a href="#">
+                    <i class="fa-regular fa-rectangle-xmark"></i>
+                </a> -->
+                <div class="login-head">Login Form
+                    <i class="fa-regular fa-rectangle-xmark"></i>
+                </div>
+                <form action="#">
+                    <div class="data">
+                        <label for="Email or Phone: ">
+                            <input type="email" required placeholder="Enter your email">
+                        </label>
+                    </div>
+                    <div class="data">
+                        <label for="Password: ">
+                            <input type="password" required placeholder="Enter your password">
+                        </label>
+                    </div>
+                    <div class="forgot-password">
+                        <a href="#">Forgot Passowrd</a>
+                    </div>
+                    <div class="loginBtn">
+                        <div class="inner"></div>
+                        <button type="submit">Login</button>
+                    </div>
+                    <div class="signup-link">Not a member?<a href="#"> SignUp now</a></div>
+                </form>
+            </div>
+        </div>
+        <!-- Overlay -->
+        <div class="overlay" onclick="closeModal()"></div>
         <!-- Hamburger Menu -->
         <nav id="hamburger-nav">
             <input type="checkbox" id="check">
@@ -61,11 +95,11 @@
             </div>
             <ul class="mainMenu">
                 <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="#" >About</a></li>
                 <li><a href="course.html" >Courses</a></li>
                 <li><a href="#" >Teachers</a></li>
-                <li><a href="#" >Blog</a></li>
-                <li><a href="#"  id="txt-contact">Contact</a></li>
+                <li><a href="#" >Contact</a></li>
+                <li><a href="#" >About</a></li>
+                <li><a href="#"  id="txt-contact">Login</a></li>
             </ul>
         </nav>
         <div id="container">
@@ -76,13 +110,17 @@
                     <div class="sub-title">Along with professional, we are up with exclusive school courses as well.</div>
                 </div>
                 <div class="course-filter">
-                    <select name="" id="select">
-                        <option value="0">Select Course Type</option>
-                        <option value="all">All</option>
+                    <select name="" id="select-course">
+                        <option value="hide" hidden>Select Course Type</option>
+                        <option class="red" value="all">All</option>
                         <option value="design">Design</option>
                         <option value="development">Development</option>
                         <option value="seo-marketing">SEO Marketing</option>
                     </select>
+                    <!-- Dropdown Icon -->
+                    <div class="dropdown-icon">
+                        <i class="fa-solid fa-square-caret-down"></i>
+                    </div>
                 </div>
             </div>
             <!-- course list section -->
@@ -229,11 +267,10 @@
                         <div class="ft-links">
                             <ul>
                                 <li><a href="home.html">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="course.html">Courses</a></li>
+                                <li><a href="course.html" class="active">Courses</a></li>
                                 <li><a href="#">Teachers</a></li>
-                                <li><a href="#">Blog</a></li>
                                 <li><a href="#">Contact</a></li>
+                                <li><a href="#">About</a></li>
                             </ul>
                             <!-- footer icons -->
                             <div class="ft-icons">
