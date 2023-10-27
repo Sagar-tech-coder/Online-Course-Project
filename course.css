@@ -17,7 +17,7 @@ a{
 }
 
 .sm-heading{
-    height: 2rem;
+    height: 2.55rem;
     width: 100%;
     position: relative;
     padding: 10px 20px;
@@ -41,9 +41,9 @@ a{
     /* background-color: orange; */
     /* border: 2px solid orange; */
     height: 86px;
-    width: 1266px;
-    padding: 20px 0px;
-    margin: auto;
+    width: 100%;
+    padding: 0 3vw;
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -275,9 +275,10 @@ form .signup-link a:hover{
 
 .page-title-section{
     height: 15vh;
-    width: 85%;
+    width: 100%;
     margin: auto;
     margin-bottom: 80px;
+    padding: 0 3vw;
     display: flex;
     /* background-color: #ff7d55; */
 }
@@ -355,12 +356,9 @@ form .signup-link a:hover{
 
 #course-list-section{
     height: 160vh;
-    width: 85%;
+    width: 100%;
     margin: auto;
-    /* display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 40px; */
+    padding: 0 3vw;
     /* background-color: gray; */
 }
 
@@ -501,9 +499,9 @@ h5{
 
 .still-thinking{
     height: 336px;
-    width: 1266px;
+    width: 100%;
     padding: 60px 40px;
-    margin: 150px auto 100px auto;
+    margin: 10vh 0;
     background-color: #FFD05C;
 }
 
@@ -569,13 +567,13 @@ h5{
     /* display: none; */
     height: 265px;
     width: 100%;
-    padding: 50px 0px 40px 0px;
+    padding: 8vh 5vw;
     background-color: #000000;
 }
 
 .footer-top{
     height: 128px;
-    width: 1266px;
+    width: 100%;
     margin: auto;
     padding-bottom: 50px;
     /* background-color: #ff7d55; */
@@ -620,7 +618,7 @@ h5{
 
 .footer-bottom{
     height: 46px;
-    width: 1266px;
+    width: 100%;
     margin: auto;
     padding-top: 25px;
     display: flex;

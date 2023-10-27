@@ -1158,7 +1158,7 @@ h5{
 
 #footer{
     /* display: none; */
-    height: 265px;
+    height: 100%;
     width: 100%;
     padding: 50px 0px 40px 0px;
     background-color: #000000;
