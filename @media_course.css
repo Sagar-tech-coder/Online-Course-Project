@@ -81,6 +81,7 @@
         text-align: start;
         transition: all 0.7s;
         margin-top: 148px;
+        z-index: 1;
     }
     
     nav ul li{
