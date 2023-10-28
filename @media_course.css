@@ -2107,7 +2107,7 @@
     
     #footer{
         /* display: none; */
-        height: 65vh;
+        height: 100%;
         width: 100%;
         padding: 8vh 5vw;
         background-color: #000000;
