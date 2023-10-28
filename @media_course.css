@@ -1824,7 +1824,7 @@
         height: 40vh;
         width: 100%;
         margin: 0;
-        margin-bottom: 50px;
+        margin-bottom: 0;
         padding: 0 3vw;
         display: flex;
         flex-direction: column;
@@ -1850,7 +1850,7 @@
     }
     
     .course-filter{
-        height: 40%;
+        height: 30%;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -1889,22 +1889,11 @@
         color: #333333;
     }
     
-    /* #select-course *.red{
-        height: 100px;
-        padding: 15px;
-        background-color: #ff7d55;
-    } */
-    
-    /* #select *{
-        padding: 15px;
-        background-color: red;
-    } */
-    
     /* course-list-section */
     
     #course-list-section{
         /* display: none; */
-        height: 590vh;
+        height: 578vh;
         width: 100%;
         margin: auto;
         padding: 0 5vw;
@@ -1913,13 +1902,13 @@
     }
     
     .course-list{
-        height: 575vh;
+        height: 562vh;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 40px;
+        gap: 25px;
         /* background-color: #ffd05c; */
     }
     
@@ -2050,7 +2039,7 @@
     
     .still-thinking{
         /* display: none; */
-        height: 300px;
+        height: 365px;
         width: 100%;
         padding: 40px 25px;
         margin: 8vh 0;
@@ -2118,14 +2107,14 @@
     
     #footer{
         /* display: none; */
-        height: 56vh;
+        height: 65vh;
         width: 100%;
         padding: 8vh 5vw;
         background-color: #000000;
     }
     
     .footer-top{
-        height: 130px;
+        height: 180px;
         width: 100%;
         margin: 0;
         padding: 0 0 20px 0;
@@ -2133,8 +2122,10 @@
     }
     
     .ft-left{
-        height: 78px;
+        height: 155px;
         width: 100%;
+        display: flex;
+        flex-direction: column;
         /* background-color: green; */
     }
     
@@ -2151,18 +2142,8 @@
 
     .ft-link a{
         color: #fff;
+        font-size: 12px;
         margin: 0 10px;
-    }
-    
-    /* .ft-links ul{
-        display: block;
-        list-style: none;
-        margin-top: 30px;
-        gap: 40px;
-    } */
-    
-    .ft-links ul li a{
-        color: #fff;
     }
     
     .ft-links ul li a:hover{
@@ -2181,7 +2162,7 @@
     }
     
     .footer-bottom{
-        height: 95px;
+        height: 115px;
         width: 100%;
         margin: auto;
         padding-top: 25px;
@@ -2199,7 +2180,7 @@
         font-size: 14px;
         line-height: 21px;
         margin: 15px 0;
-        margin-bottom: 20px;
+        margin-bottom: 35px;
     }
     
     .copyright-txt a{
@@ -2231,10 +2212,10 @@
 
 /* @media screen and (max-width: 375px) {
     
-}
+} */
 
 
-
+/*
 @media screen and (max-width: 319px) {
     
 } */

@@ -588,20 +588,15 @@ h5{
 .ft-links{
     display: flex;
     justify-content: space-between;
-}
-
-.ft-left ul{
-    display: flex;
-    list-style: none;
     margin-top: 30px;
-    gap: 40px;
 }
 
-.ft-left ul li a{
+.ft-link a{
     color: #fff;
+    margin-right: 30px;
 }
 
-.ft-left ul li a:hover{
+.ft-link a:hover{
     color: #ff7d55;
     transition: all 0.7s ease;
 }
