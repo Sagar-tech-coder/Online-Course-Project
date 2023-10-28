@@ -1902,7 +1902,7 @@
     }
     
     .course-list{
-        height: 562vh;
+        height: 100%;  /* 562vh */
         width: 100%;
         display: flex;
         flex-wrap: wrap;
