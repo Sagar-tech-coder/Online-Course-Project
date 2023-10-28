@@ -1893,7 +1893,7 @@
     
     #course-list-section{
         /* display: none; */
-        height: 578vh;
+        height: 100%;
         width: 100%;
         margin: auto;
         padding: 0 5vw;
