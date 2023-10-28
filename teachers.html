@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachers EcoLabs</title>
+    <!-- favicon -->
+    <link rel="icon" href="/assets/logo.jpg">
+    <link rel="stylesheet" href="teachers.css">
+    <link rel="stylesheet" href="@media_teachers.css">
+    <!-- icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- font awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <!-- maincontainer -->
+    <div id="maincontainer">
+        <!-- small heading -->
+        <div class="sm-heading h-8 flex w-full items-center relative py-10px px-40px text-center bg-yellow-400">
+            <div class="text-heading w-full">Let's join new friends and new year learning experience. click for get started!</div>
+            <a class="text-delete" href="#"><img src="/assets/asset 0.svg" alt=""></a>
+        </div>
+        <!-- navbar -->
+        <div id="navbar">
+            <div class="logo"><a href="index.html"><img src="/assets/asset 1.svg" alt=""></a></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="teachers.html" class="activated">Teachers</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#" id="contact-text" onclick="blur()">Login</a></li>
+                <!-- <label for="show"><li><a href="#" for="show" id="contact-text">Contact</a></li></label> -->
+            </ul>
+        </div>
+        <!-- Popup Login/SignUp -->
+        <div id="popup">
+            <div class="popup-container">
+                <!-- <a href="#">
+                    <i class="fa-regular fa-rectangle-xmark"></i>
+                </a> -->
+                <div class="login-head">Login Form
+                    <i class="fa-regular fa-rectangle-xmark"></i>
+                </div>
+                <form action="#">
+                    <div class="data">
+                        <label for="Email or Phone: ">
+                            <input type="email" required placeholder="Enter your email">
+                        </label>
+                    </div>
+                    <div class="data">
+                        <label for="Password: ">
+                            <input type="password" required placeholder="Enter your password">
+                        </label>
+                    </div>
+                    <div class="forgot-password">
+                        <a href="#">Forgot Passowrd</a>
+                    </div>
+                    <div class="loginBtn">
+                        <div class="inner"></div>
+                        <button type="submit">Login</button>
+                    </div>
+                    <div class="signup-link">Not a member?<a href="#"> SignUp now</a></div>
+                </form>
+            </div>
+        </div>
+        <!-- Overlay -->
+        <div class="overlay" onclick="closeModal()"></div>
+        <!-- Hamburger Menu -->
+        <nav id="hamburger-nav">
+            <input type="checkbox" id="check">
+            <!-- <label for="check">
+                <i class="ri-menu-3-line menu-btn"></i>
+            </label> -->
+            <div class="logo">
+                <a href="index.html"><img src="/assets/asset 1.svg" alt=""></a>
+                <label for="check" class="check-btn">
+                    <i class="ri-menu-3-line menu-btn"></i>
+                </label>
+                <!-- <i class="ri-menu-3-line menu-btn"></i> -->
+                <!-- <i class="ri-close-line close-btn"></i> -->
+            </div>
+            <ul class="mainMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="teachers.html" class="active">Teachers</a></li>
+                <li><a href="#" >Contact</a></li>
+                <li><a href="#" >About</a></li>
+                <li><a href="#"  id="txt-contact">Login</a></li>
+            </ul>
+        </nav>
+        <!-- page-title-section -->
+        <div class="page-title-section">
+            <h2 class="page-title">Mentor & Teachers</h2>
+            <div class="sub-heading">Our teachers are experts to share their experience with you</div>
+        </div>
+        <!-- teacher-container -->
+        <div class="teacher-container">
+            <!-- teacher box 1 -->
+            <div class="teacher-box">
+                <a href="#">
+                    <div class="teacher-media">
+                        <img src="/assets/asset 39.jpeg" alt="">
+                    </div>
+                    <div class="teacher-info">
+                        <h5>Bessei Cooper</h5>
+                        <div class="teacher-location">Colorado, USA</div>
+                    </div>
+                </a>
+            </div>
+            <!-- teacher box 2 -->
+            <div class="teacher-box">
+                <a href="#">
+                    <div class="teacher-media">
+                        <img src="/assets/asset 40.jpeg" alt="">
+                    </div>
+                    <div class="teacher-info">
+                        <h5>Bessei Cooper</h5>
+                        <div class="teacher-location">Colorado, USA</div>
+                    </div>
+                </a>
+            </div>
+            <!-- teacher box 3 -->
+            <div class="teacher-box">
+                <a href="#">
+                    <div class="teacher-media">
+                        <img src="/assets/asset 41.jpeg" alt="">
+                    </div>
+                    <div class="teacher-info">
+                        <h5>Bessei Cooper</h5>
+                        <div class="teacher-location">Colorado, USA</div>
+                    </div>
+                </a>
+            </div>
+            <!-- teacher box 4 -->
+            <div class="teacher-box">
+                <a href="#">
+                    <div class="teacher-media">
+                        <img src="/assets/asset 33.jpeg" alt="">
+                    </div>
+                    <div class="teacher-info">
+                        <h5>Bessei Cooper</h5>
+                        <div class="teacher-location">Colorado, USA</div>
+                    </div>
+                </a>
+            </div>
+            <!-- teacher box 5 -->
+            <div class="teacher-box">
+                <a href="#">
+                    <div class="teacher-media">
+                        <img src="/assets/asset 37.jpeg" alt="">
+                    </div>
+                    <div class="teacher-info">
+                        <h5>Bessei Cooper</h5>
+                        <div class="teacher-location">Colorado, USA</div>
+                    </div>
+                </a>
+            </div>
+            <!-- teacher box 6 -->
+            <div class="teacher-box">
+                <a href="#">
+                    <div class="teacher-media">
+                        <img src="/assets/asset 35.jpeg" alt="">
+                    </div>
+                    <div class="teacher-info">
+                        <h5>Bessei Cooper</h5>
+                        <div class="teacher-location">Colorado, USA</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- still thinking -->
+        <div class="still-container">
+            <div class="still-thinking">
+                <h2 class="still-heading">Still thinking about it?</h2>
+                <p class="still-desc">Sign up for our newsletter and get 10% off your next course.</p>
+                <div class="input-boxBtn">
+                    <input type="email" required placeholder="Enter your email here">
+                    <a href="#" class="signup-btn">Sign up Now</a>
+                </div>
+            </div>
+        </div>
+        <!-- eight section (footer section) -->
+        <footer id="footer">
+            <!-- footer top -->
+            <div class="footer-top">
+                <!-- footer left -->
+                <div class="ft-left">
+                    <!-- footer logo -->
+                    <a href="index.html"><img src="/assets/asset 24.svg" class="ft-logo" alt=""></a>
+                    <div class="ft-links">
+                        <div class="ft-link">
+                            <a href="#">Home</a>
+                            <a href="#">Courses</a>
+                            <a href="#">Teachers</a>
+                            <a href="#">Contact</a>
+                            <a href="#">About</a>
+                        </div>
+                        <!-- footer icons -->
+                        <div class="ft-icons">
+                            <a href="https://www.twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/thesagarpatra/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer bottom -->
+            <div class="footer-bottom">
+                <div class="copyright-txt">Designed by <a href="https://www.linkedin.com/in/thesagarpatra/">Sagar Patra</a>. Powered by <a href="https://www.linkedin.com/in/thesagarpatra/">Sagar</a>.</div>
+                <div class="ft-rightLinks">
+                    <a href="#">Style Guide</a>
+                    <a href="#">Licensing</a>
+                    <a href="#">Changelog</a>
+                </div>
+            </div>
+        </footer>
+    <!-- maincontainer ends -->
+    </div>
+    <!-- adding JS -->
+    <script src="script.js"></script>
+</body>
+</html>

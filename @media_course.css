@@ -1579,6 +1579,8 @@
         display: none;
     }
 
+    /* hamburgur menu */
+
     #hamburger-nav{
         display: flex;
         height: 80px;
