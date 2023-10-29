@@ -22,29 +22,32 @@
 <body>
     <div id="maincontainer">
         <!-- small heading -->
-        <div class="sm-heading">
-            <div id="text-heading">Let's join new friends and new year learning experience. click for get started!</div>
+        <div class="sm-heading h-8 flex w-full items-center relative py-10px px-40px text-center bg-yellow-400">
+            <div class="text-heading w-full">Let's join new friends and new year learning experience. click for get started!</div>
             <a class="text-delete" href="#"><img src="/assets/asset 0.svg" alt=""></a>
         </div>
         <!-- navbar -->
         <div id="navbar">
             <div class="logo"><a href="index.html"><img src="/assets/asset 1.svg" alt=""></a></div>
             <ul>
-                <li><a class="activated" href="#">Home</a></li>
+                <li><a href="index.html" class="activated">Home</a></li>
                 <li><a href="course.html">Courses</a></li>
                 <li><a href="teachers.html">Teachers</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.css">Contact</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#" id="contact-text">Login</a></li>
+                <li><a href="#" id="contact-text" onclick="blur()">Login</a></li>
+                <!-- <label for="show"><li><a href="#" for="show" id="contact-text">Contact</a></li></label> -->
             </ul>
         </div>
         <!-- Popup Login/SignUp -->
         <div id="popup">
             <div class="popup-container">
-                <a href="#">
+                <!-- <a href="#">
                     <i class="fa-regular fa-rectangle-xmark"></i>
-                </a>
-                <div class="login-head">Login Form</div>
+                </a> -->
+                <div class="login-head">Login Form
+                    <i class="fa-regular fa-rectangle-xmark"></i>
+                </div>
                 <form action="#">
                     <div class="data">
                         <label for="Email or Phone: ">
@@ -67,6 +70,8 @@
                 </form>
             </div>
         </div>
+        <!-- Overlay -->
+        <div class="overlay" onclick="closeModal()"></div>
         <!-- Hamburger Menu -->
         <nav id="hamburger-nav">
             <input type="checkbox" id="check">
@@ -76,15 +81,15 @@
             <div class="logo">
                 <a href="index.html"><img src="/assets/asset 1.svg" alt=""></a>
                 <label for="check" class="check-btn">
-                    <i class="ri-menu-3-line menu-btn"></i>
+                    <i class="fa-solid fa-align-right menu-btn"></i>
                 </label>
                 <!-- <i class="ri-menu-3-line menu-btn"></i> -->
                 <!-- <i class="ri-close-line close-btn"></i> -->
             </div>
             <ul class="mainMenu">
                 <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="course.html" >Courses</a></li>
-                <li><a href="teachers.html" >Teachers</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="teachers.html">Teachers</a></li>
                 <li><a href="contact.html" >Contact</a></li>
                 <li><a href="#" >About</a></li>
                 <li><a href="#"  id="txt-contact">Login</a></li>
@@ -92,49 +97,49 @@
         </nav>
         <!-- hero section -->
         <section id="hero-section">
-            <div class="hero-text">
-                <!-- hero heading -->
-                <h1 class="hero-heading">Explore Live Creative Classes</h1>
-                <!-- hero description -->
-                <p class="hero-description">Choose from over 2,000+ courses on topic like user interface design, graphic design, front-end development, and much more...</p>
-                <!-- hero button -->
-                <div class="hero-btn">
-                    <a href="#" class="start-btn">Start Learning</a>
-                    <a href="#" class="demo-btn">Try Demo</a>
+            <!-- hero-text-left -->
+            <div class="hero-text-left">
+                <div class="hero-heading">Explore Live Creative Classes</div>
+                <div class="hero-desc">Choose from over 2,000+ courses on topics like user interface design, graphic design, front-end development, and much more...</div>
+                <!-- hero-all btn -->
+                <div id="hero-btn">
+                    <!-- orange btn -->
+                    <a href="#" class="orange-btn">Start Learning</a>
+                    <!-- black btn -->
+                    <a href="#" class="black-btn">Try Demo</a>
                 </div>
-                <div class="happy-students">
-                    <div class="happy-imgs">
-                        <img class="img1" src="/assets/asset 2.jpeg" alt="">
-                        <img class="img2" src="/assets/asset 3.jpeg" alt="">
-                        <img class="img3" src="/assets/asset 4.jpeg" alt="">
-                        <img class="img4" src="/assets/asset 5.jpeg" alt="">
-                        <img class="img5" src="/assets/asset 6.jpeg" alt="">
+                <!-- happy students -->
+                <div id="happy-students">
+                    <div class="happy-media">
+                        <img src="/assets/asset 2.jpeg" id="happy-img1" alt="">
+                        <img src="/assets/asset 3.jpeg" id="happy-img2" alt="">
+                        <img src="/assets/asset 4.jpeg" id="happy-img3" alt="">
+                        <img src="/assets/asset 5.jpeg" id="happy-img4" alt="">
+                        <img src="/assets/asset 6.jpeg" id="happy-img5" alt="">
                     </div>
-                    <div class="happy-txt">Happy Students</div>
+                    <!-- Happy Students -->
+                    <div class="happy-text">Happy Students</div>
                 </div>
             </div>
-            <div class="hero-img">
-                <div class="grid-item">
-                    <div class="circle-1"></div>
-                    <div class="circle-2"></div>
-                    <img src="/assets/asset 7.jpeg" class="img-1" height="230px" alt="">
+            <!-- hero-media-right -->
+            <div class="hero-media-right">
+                <div class="hero-grid-img" id="hero-grid-1">
+                    <div class="hero-circle-1"></div>
+                    <div class="hero-circle-2"></div>
                 </div>
-                <div class="grid-item">
-                    <img src="/assets/asset 8.jpeg" class="img-2" height="230px" alt="">
+                <div class="hero-grid-img" id="hero-grid-2"></div>
+                <div class="hero-grid-img" id="hero-grid-3">
+                    <div class="hero-circle-3"></div>
                 </div>
-                <div class="grid-item">
-                    <img src="/assets/asset 9.jpeg" class="img-3" height="230px" alt="">
-                </div>
-                <div class="grid-item">
-                    <div class="circle-4"></div>
-                    <img src="/assets/asset 10.jpeg" class="img-4" height="230px" alt="">
+                <div class="hero-grid-img" id="hero-grid-4">
+                    <div class="hero-circle-4"></div>
                 </div>
             </div>
         </section>
-        <!-- first section -->
-        <section id="first-section">
-            <p class="first-description">Trusted by leading several unicorn companies</p>
-            <div class="company-imgs">
+        <!-- first section (client-section) -->
+        <section id="client-section">
+            <div class="company-text">Trusted by leading several unicorn companies</div>
+            <div class="client-wrap">
                 <img src="/assets/asset 11.svg" alt="">
                 <img src="/assets/asset 12.svg" alt="">
                 <img src="/assets/asset 13.svg" alt="">
@@ -142,259 +147,302 @@
                 <img src="/assets/asset 15.svg" alt="">
                 <img src="/assets/asset 16.svg" alt="">
             </div>
-            <div class="first-section-items">
-                <!-- box 1 -->
-                <div class="first-section-item">
-                    <img src="/assets/asset 17.png" height="60px" alt="">
-                    <p class="first-item-heading">Learn from anywhere</p>
-                    <p class="first-item-desc">Ecolab's online learning platform empowers you to learn new skills and accomplish real growth.</p>
+        </section>
+        <!-- second section (feature section) -->
+        <section id="feature-section">
+            <!-- feature-item 1 -->
+            <div class="feature-item">
+                <!-- feature icon -->
+                <div class="feature-icon">
+                    <img src="/assets/asset 17.png" alt="">
                 </div>
-                <!-- box 2 -->
-                <div class="first-section-item">
-                    <img src="/assets/asset 18.png" height="60px" alt="">
-                    <p class="first-item-heading">Courses taught by real-world experts</p>
-                    <p class="first-item-desc">Our teachers are experts excited to share their wisdom, experience & trusted tools with you.</p>
+                <!-- feature title -->
+                <div class="feature-title">Learn from anywhere</div>
+                <!-- feature desc -->
+                <div class="feature-desc">Ecolabs’s online learning platform empowers you to learn new skills and accomplish real growth.</div>
+            </div>
+            <!-- feature-item 2 -->
+            <div class="feature-item">
+                <!-- feature icon -->
+                <div class="feature-icon">
+                    <img src="/assets/asset 17.png" alt="">
                 </div>
-                <!-- box 3 -->
-                <div class="first-section-item">
-                    <img src="/assets/asset 19.png" height="60px" alt="">
-                    <p class="first-item-heading">Learn in demand skills</p>
-                    <p class="first-item-desc">Explore demanded skills, deepen exiting passions and get lost in creativity.</p>
+                <!-- feature title -->
+                <div class="feature-title">Learn from anywhere</div>
+                <!-- feature desc -->
+                <div class="feature-desc">Ecolabs’s online learning platform empowers you to learn new skills and accomplish real growth.</div>
+            </div>
+            <!-- feature-item 3 -->
+            <div class="feature-item">
+                <!-- feature icon -->
+                <div class="feature-icon">
+                    <img src="/assets/asset 17.png" alt="">
                 </div>
+                <!-- feature title -->
+                <div class="feature-title">Learn from anywhere</div>
+                <!-- feature desc -->
+                <div class="feature-desc">Ecolabs’s online learning platform empowers you to learn new skills and accomplish real growth.</div>
             </div>
         </section>
-        <!-- scond section -->
-        <section id="second-section">
-            <div class="second-section">
-                <div class="second-img">
-                    <!-- <img src="/assets/asset 30.jpeg" alt=""> -->
-                    <img src="/assets/asset 20.svg" alt="">
-                </div>
-                <div class="second-textArea">
-                    <h2>Access to learning anytime and anywhere</h2>
-                    <p class="second-desc">Tell us tristique diam interdum enim amet turpis erat diam ridiculus nibhdui ac metus donec habitasse pharetra sed</p>
-                    <div class="second-texts">
-                        <div class="second-txt">
-                            <img src="/assets/asset 31.svg" alt="">
-                            <p class="second-item-txt">Safe Screen Time</p>
-                        </div>
-                        <div class="second-txt">
-                            <img src="/assets/asset 31.svg" alt="">
-                            <p class="second-item-txt">Thoughtfully Designed</p>
-                        </div>
-                        <div class="second-txt">
-                            <img src="/assets/asset 31.svg" alt="">
-                            <p class="second-item-txt">Afordable Pricing</p>
-                        </div>
-                        <div class="second-txt">
-                            <img src="/assets/asset 31.svg" alt="">
-                            <p class="second-item-txt">One on One Teaching</p>
-                        </div>
+        <!-- third section (learning section) -->
+        <section id="learning-section">
+            <!-- learning-media-left -->
+            <div class="learning-media-left">
+                <!-- UI/UX image -->
+                <img src="/assets/asset 20.svg" alt="">
+            </div>
+            <!-- learning-text-right -->
+            <div class="learning-text-right">
+                <!-- learning heading -->
+                <div class="learning-heading">Access to learning anytime and anywhere</div>
+                <!-- learning desc -->
+                <div class="learning-desc">Tellus tristique diam interdum enim amet turpis erat diam ridiculus nibhdui ac metus donec habitasse pharetra sed</div>
+                <!-- checklist wrap -->
+                <div class="checklist-wrap">
+                    <!-- checklist item 1 -->
+                    <div class="checklist-item">
+                        <img src="/assets/asset 31.svg" alt="">
+                        <div class="checklist-item-text">Safe Screen Time</div>
                     </div>
-                    <a href="#" class="getStart-btn" id="second-btn">Get Started</a>
+                    <!-- checklist item 2 -->
+                    <div class="checklist-item">
+                        <img src="/assets/asset 31.svg" alt="">
+                        <div class="checklist-item-text">Thoughtfully Designed</div>
+                    </div>
+                    <!-- checklist item 3 -->
+                    <div class="checklist-item">
+                        <img src="/assets/asset 31.svg" alt="">
+                        <div class="checklist-item-text">Affrodable Pricing</div>
+                    </div>
+                    <!-- checklist item 4 -->
+                    <div class="checklist-item">
+                        <img src="/assets/asset 31.svg" alt="">
+                        <div class="checklist-item-text">One on One Teaching</div>
+                    </div>
+                </div>
+                <div id="learning-btn">
+                    <div class="orange-btn cursor">Get Started</div>
                 </div>
             </div>
         </section>
-        <!-- third section -->
+        <!-- fourth section (Course section) -->
         <section id="course-section">
-            <h2 class="course-heading">Our New Courses</h2>
-            <p class="course-desc">Nunc in proin vitae faccilisis ut scelerisque dignissim quam</p>
+            <!-- section main heading -->
+            <div class="section-heading">Our New Courses</div>
+            <!-- sub heading -->
+            <div class="sub-heading">Nunc in proin vitae facilisis ut scelerisque dignissim quam</div>
+            <!-- course list container -->
             <div class="course-container">
                 <!-- course box 1 -->
-                <a href="#">
-                    <div class="course-box">
-                        <div class="course-media1">
-                            <span class="course-price">$90.00</span>
+                <div class="course-box">
+                    <a href="#">
+                        <!-- course media -->
+                        <div class="course-media" id="course-media1">
+                            <div class="course-price">$90.00</div>
                         </div>
+                        <!-- course info -->
                         <div class="course-info">
-                            <h5>The Complete Copywrting & SEO Course</h5>
-                            <div class="lesson-txt">17 LESSON</div>
-                            <p>Nisi accumsan lacusest lectus molestie sed pellentesque vitae</p>
-                            <div class="course-teacher">
-                                <div class="teacher-img">
-                                    <img src="/assets/asset 33.jpeg" alt="">
-                                </div>
-                                <p class="teacher-name"><span>by</span>Albert Flores</p>
+                            <div class="box-heading">The Complete Copywriting & SEO Course</div>
+                            <div class="lesson-text">17 LESSON</div>
+                            <div class="box-desc">Nisi accumsan lacusest lectus molestie sed pellentesque vitae</div>
+                            <div class="course-box-teacher">
+                                <img src="/assets/asset 33.jpeg" alt="">
+                                <div class="teacher-name">by Aanjan Mukherjee</div>
                             </div>
                         </div>
-                    </div>
-                </a>
+                    </a>
+                </div>
                 <!-- course box 2 -->
-                <a href="#">
-                    <div class="course-box">
-                        <div class="course-media2">
-                            <span class="course-price">$98.50</span>
+                <div class="course-box">
+                    <a href="#">
+                        <!-- course media -->
+                        <div class="course-media" id="course-media2">
+                            <div class="course-price">$98.50</div>
                         </div>
+                        <!-- course info -->
                         <div class="course-info">
-                            <h5>The Complete Digital Marketing Course</h5>
-                            <div class="lesson-txt">27 LESSON</div>
-                            <p>Nibh eleifend nisl donec faucibus rhoncus amet est risus arcu laoreet est donec</p>
-                            <div class="course-teacher">
-                                <div class="teacher-img">
-                                    <img src="/assets/asset 35.jpeg" alt="">
-                                </div>
-                                <p class="teacher-name"><span>by</span>Arlene McCoy</p>
+                            <div class="box-heading">The Complete Digital Marketing Course</div>
+                            <div class="lesson-text">27 LESSON</div>
+                            <div class="box-desc">Nisi accumsan lacusest lectus molestie sed pellentesque vitae</div>
+                            <div class="course-box-teacher">
+                                <img src="/assets/asset 37.jpeg" alt="">
+                                <div class="teacher-name">by Rishab Pal Chowdhery</div>
                             </div>
                         </div>
-                    </div>
-                </a>
+                    </a>
+                </div>
                 <!-- course box 3 -->
-                <a href="#">
-                    <div class="course-box">
-                        <div class="course-media3">
-                            <span class="course-price">$60.50</span>
+                <div class="course-box">
+                    <a href="#">
+                        <!-- course media -->
+                        <div class="course-media" id="course-media3">
+                            <div class="course-price">$60.50</div>
                         </div>
+                        <!-- course info -->
                         <div class="course-info">
-                            <h5>Build Web Apps with React & Firebase</h5>
-                            <div class="lesson-txt">18 LESSON</div>
-                            <p>Tincidunt cursus est mattisa doloret adipiscing diam nec nulla enimut elemen</p>
-                            <div class="course-teacher">
-                                <div class="teacher-img">
-                                    <img src="/assets/asset 37.jpeg" alt="">
-                                </div>
-                                <p class="teacher-name"><span>by</span>Floyd Miles</p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <!-- all course button -->
-            <div id="all-courseBtn">
-                <a href="#" class="getStart-btn courseBtn">View All Courses</a>
-            </div>
-        </section>
-        <!-- fourth section -->
-        <section id="talent-section">
-            <div class="talent-section">
-                <div class="talent-info">
-                    <h2>Talented and Highly Qualified Tutors</h2>
-                    <p class="talent-desc">Dui dui sed mauris quis massa vivamus duis aliquet amet risus vestibulum ut diam id urna turpis pellentesque viverra auctor et minon euismod nisl congue sedat tortor velit cursus hac tempus fusce varius.</p>
-                    <a href="#" class="getStart-btn talent-btn">Get Started</a>
-                </div>
-                <div class="talent-media">
-                    <img src="/assets/asset 20.svg" alt="">
-                </div>
-            </div>
-        </section>
-        <!-- fifth section (Teacher's section) -->
-        <section id="teacher-section">
-            <div class="teacher-section">
-                <div class="teacher-head">
-                    <h2 class="teacher-heading">Explore Teachers</h2>
-                    <p class="teacher-desc">Our teachers are experts to share their experience with you</p>
-                </div>
-                <div class="teacher-boxes">
-                    <!-- teacher box 1 -->
-                    <a href="#">
-                        <div class="teacher-box">
-                            <div class="teacherImg">
+                            <div class="box-heading">Build Web Apps with React & Firebase</div>
+                            <div class="lesson-text">18 LESSON</div>
+                            <div class="box-desc">Nisi accumsan lacusest lectus molestie sed pellentesque vitae</div>
+                            <div class="course-box-teacher">
                                 <img src="/assets/asset 39.jpeg" alt="">
-                            </div>
-                            <div class="teacherDesc">
-                                <h5>Bessie Cooper</h5>
-                                <p>Colorado, USA</p>
-                            </div>
-                        </div>
-                    </a>
-                    <!-- teacher box 2 -->
-                    <a href="#">
-                        <div class="teacher-box">
-                            <div class="teacherImg">
-                                <img src="/assets/asset 40.jpeg" alt="">
-                            </div>
-                            <div class="teacherDesc">
-                                <h5>Leslie Alexander</h5>
-                                <p>Dublin, Ireland</p>
-                            </div>
-                        </div>
-                    </a>
-                    <!-- teacher box 3 -->
-                    <a href="#">
-                        <div class="teacher-box">
-                            <div class="teacherImg">
-                                <img src="/assets/asset 41.jpeg" alt="">
-                            </div>
-                            <div class="teacherDesc">
-                                <h5>Jacob Jones</h5>
-                                <p>Florida, USA</p>
+                                <div class="teacher-name">by Swastik Mukherjee</div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <!-- all teachers button
-                <div id="teacher-btn">
-                    <a href="#" class="getStart-btn">View All Teachers</a>
-                </div> -->
             </div>
-            <!-- all teachers button -->
-            <div id="teacher-btn">
-                <a href="#" class="getStart-btn">View All Teachers</a>
+            <!-- View All Course Button -->
+            <div id="allCourse-btn">
+                <a href="#" class="orange-btn">View All Course</a>
             </div>
-            <!-- still thinking about it -->
+        </section>
+        <!-- fifth section (talent Section) -->
+        <section id="talent-section">
+            <!-- learning-text-right -->
+            <div class="talent-text-left">
+                <!-- learning heading -->
+                <div class="learning-heading">Talented and Highly Qualified Tutors</div>
+                <!-- learning desc -->
+                <div class="learning-desc">Dui dui sed mauris quis massa vivamus duis aliquet amet risus vestibulum ut diam id urna turpis pellentesque viverra auctor et minon euismod nisl congue sedat tortor velit cursus hac tempus fusce varius.</div>
+                <!-- get started btn -->
+                <div id="learning-btn">
+                    <a href="#" class="orange-btn">Get Started</a>
+                </div>
+            </div>
+            <!-- learning-media-left -->
+            <div class="talent-media-right">
+                <!-- UI/UX image -->
+                <img src="/assets/asset 20.svg" alt="">
+            </div>
+        </section>
+        <!-- sixth section (Teacher Section) -->
+        <section id="teacher-section">
+            <!-- page-title-section -->
+            <div class="page-title-section">
+                <h2 class="page-title">Mentor & Teachers</h2>
+                <div class="sub-heading">Our teachers are experts to share their experience with you</div>
+            </div>
+            <!-- teacher-container -->
+            <div class="teacher-container">
+                <!-- teacher box 1 -->
+                <div class="teacher-box">
+                    <a href="#">
+                        <div class="teacher-media">
+                            <img src="/assets/asset 39.jpeg" alt="">
+                        </div>
+                        <div class="teacher-info">
+                            <h5>Bessei Cooper</h5>
+                            <div class="teacher-location">Colorado, USA</div>
+                        </div>
+                    </a>
+                </div>
+                <!-- teacher box 2 -->
+                <div class="teacher-box">
+                    <a href="#">
+                        <div class="teacher-media">
+                            <img src="/assets/asset 40.jpeg" alt="">
+                        </div>
+                        <div class="teacher-info">
+                            <h5>Bessei Cooper</h5>
+                            <div class="teacher-location">Colorado, USA</div>
+                        </div>
+                    </a>
+                </div>
+                <!-- teacher box 3 -->
+                <div class="teacher-box">
+                    <a href="#">
+                        <div class="teacher-media">
+                            <img src="/assets/asset 41.jpeg" alt="">
+                        </div>
+                        <div class="teacher-info">
+                            <h5>Bessei Cooper</h5>
+                            <div class="teacher-location">Colorado, USA</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- View All Course Button -->
+            <div id="allCourse-btn">
+                <a href="#" class="orange-btn">View All Teachers</a>
+            </div>
+        </section>
+        <!-- seventh section (still thinking) -->
+        <div class="still-container">
             <div class="still-thinking">
                 <h2 class="still-heading">Still thinking about it?</h2>
                 <p class="still-desc">Sign up for our newsletter and get 10% off your next course.</p>
                 <div class="input-boxBtn">
-                    <input type="email" placeholder="Enter your email here">
+                    <input type="email" required placeholder="Enter your email here">
                     <a href="#" class="signup-btn">Sign up Now</a>
                 </div>
             </div>
-        </section>
-        <!-- sixth section (News section) -->
+        </div>
+        <!-- eight section (News Section) -->
         <section id="news-section">
-            <h2 class="news-heading">News & Resources</h2>
-            <p class="news-desc">The latest industry news, interviews, technologies, and resources.</p>
-            <!-- News container -->
+            <!-- section main heading -->
+            <div class="section-heading">News & Resource</div>
+            <!-- sub heading -->
+            <div class="sub-heading">The latest industry news, interviews, technologies, and resources.</div>
+            <!-- news list container -->
             <div class="news-container">
-                <!-- course box 1 -->
+                <!-- news box 1 -->
                 <div class="news-box">
-                    <div class="news-media1"></div>
+                    <!-- course media -->
+                    <div class="news-media" id="news-media1"></div>
+                    <!-- course info -->
                     <div class="news-info">
-                        <div class="date-txt">OCTOBER 15, 2022 <span>&#x2022;</span> 08 MIN</div>
-                        <h5 class="news-head">Tech Certifications That Takes Most for the Future</h5>
-                        <p class="newsDesc">Idenim quis ipsum lectus in morbi viverra Nibh idut sapien nullam</p>
+                        <div class="date-text">OCTOBER 15, 2022 <span>&#x2022;</span> 08 MIN</div>
+                        <div class="box-heading">Tech Certifications That Matter Most for the Future</div>
+                        <div class="news-box-desc">Nisi accumsan lacusest lectus molestie sed pellentesque vitae</div>
+                        <!-- Read more link -->
                         <a href="#">
-                            <div class="new-readMore">
-                                Read More &ensp;<i class="fa-solid fa-arrow-right-long"></i>
+                            <div class="news-readMore">Read More &ensp;
+                                <i class="fa-solid fa-arrow-right-long"></i>
                             </div>
                         </a>
                     </div>
                 </div>
-                <!-- course box 2 -->
+                <!-- news box 2 -->
                 <div class="news-box">
-                    <div class="news-media2"></div>
+                    <!-- course media -->
+                    <div class="news-media" id="news-media2"></div>
+                    <!-- course info -->
                     <div class="news-info">
-                        <div class="date-txt">DECEMBER 18, 2022 <span>&#x2022;</span> 10 MIN</div>
-                        <h5 class="news-head">The Data Science Future Trends to Consider</h5>
-                        <p class="newsDesc">Ultricies etjusto maecenas dui nisiut tellus facilisi dolor sed montes</p>
+                        <div class="date-text">DECEMBER 18, 2022 <span>&#x2022;</span> 10 MIN</div>
+                        <div class="box-heading">The Data Science Future Trends to Consider</div>
+                        <div class="news-box-desc">Nisi accumsan lacusest lectus molestie sed pellentesque vitae</div>
+                        <!-- Read more link -->
                         <a href="#">
-                            <div class="new-readMore">
-                                Read More &ensp;<i class="fa-solid fa-arrow-right-long"></i>
+                            <div class="news-readMore">Read More &ensp;
+                                <i class="fa-solid fa-arrow-right-long"></i>
                             </div>
                         </a>
                     </div>
                 </div>
-                <!-- course box 3 -->
+                <!-- news box 3 -->
                 <div class="news-box">
-                    <div class="news-media3"></div>
+                    <!-- course media -->
+                    <div class="news-media" id="news-media3"></div>
+                    <!-- course info -->
                     <div class="news-info">
-                        <div class="date-txt">DECEMBER 21, 2022 <span>&#x2022;</span> 18 MIN</div>
-                        <h5 class="news-head">How to Develop Your Data Science Team</h5>
-                        <p class="newsDesc">Etfringilla felis lobortis non cras ipsum egestas felis mattis</p>
+                        <div class="date-text">DECEMBER 11, 2022 <span>&#x2022;</span> 18 MIN</div>
+                        <div class="box-heading">How to Develop your Data Science Team</div>
+                        <div class="news-box-desc">Nisi accumsan lacusest lectus molestie sed pellentesque vitae</div>
+                        <!-- Read more link -->
                         <a href="#">
-                            <div class="new-readMore">
-                                Read More &ensp;<i class="fa-solid fa-arrow-right-long"></i>
+                            <div class="news-readMore">Read More &ensp;
+                                <i class="fa-solid fa-arrow-right-long"></i>
                             </div>
                         </a>
                     </div>
                 </div>
             </div>
-            <!-- all Blog button -->
-            <div id="all-blogBtn">
-                <a href="#" class="getStart-btn blogBtn">View All Blogs</a>
+            <!-- View All Course Button -->
+            <div id="allCourse-btn">
+                <a href="#" class="orange-btn">View All Blogs</a>
             </div>
         </section>
-        <!-- seventh section (review section) -->
+        <!-- ninth section (review section) -->
         <section id="review-section">
             <div class="review-section">
                 <div class="review-slider">
@@ -497,7 +545,7 @@
                 <!-- <div class="circle3"></div> -->
             </div>
         </section>
-        <!-- eight section (footer section) -->
+        <!-- tenth section (footer section) -->
         <footer id="footer">
             <!-- footer top -->
             <div class="footer-top">
@@ -506,13 +554,13 @@
                     <!-- footer logo -->
                     <a href="index.html"><img src="/assets/asset 24.svg" class="ft-logo" alt=""></a>
                     <div class="ft-links">
-                        <ul>
-                            <li><a href="home.html">Home</a></li>
-                            <li><a href="course.html">Courses</a></li>
-                            <li><a href="#">Teachers</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">About</a></li>
-                        </ul>
+                        <div class="ft-link">
+                            <a href="index.html">Home</a>
+                            <a href="course.html">Courses</a>
+                            <a href="teachers.html">Teachers</a>
+                            <a href="contact.html">Contact</a>
+                            <a href="#">About</a>
+                        </div>
                         <!-- footer icons -->
                         <div class="ft-icons">
                             <a href="https://www.twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
@@ -526,7 +574,7 @@
             </div>
             <!-- footer bottom -->
             <div class="footer-bottom">
-                <div class="copyright-txt">Designed by <a href="https://www.linkedin.com/in/thesagarpatra/">Sagar Patra</a>. Powered by <a href="#">Sagar</a>.</div>
+                <div class="copyright-txt">Designed by <a href="https://www.linkedin.com/in/thesagarpatra/">Sagar Patra</a>. Powered by <a href="https://www.linkedin.com/in/thesagarpatra/">Sagar</a>.</div>
                 <div class="ft-rightLinks">
                     <a href="#">Style Guide</a>
                     <a href="#">Licensing</a>
@@ -534,6 +582,7 @@
                 </div>
             </div>
         </footer>
+        <!-- scripts links -->
         <!-- slider JS -->
         <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
         <!-- adding JS -->

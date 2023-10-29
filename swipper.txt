@@ -1,0 +1,103 @@
+<!-- seventh section (review section) -->
+        <section id="review-section">
+            <div class="review-section">
+                <div class="review-slider">
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <!-- slide 1 -->
+                            <div class="swiper-slide slide">
+                                <!-- five stars -->
+                                <div class="fiveStars">
+                                    <img src="/assets/asset 21.svg" alt="">
+                                    <img src="/assets/asset 21.svg" alt="">
+                                    <img src="/assets/asset 21.svg" alt="">
+                                    <img src="/assets/asset 21.svg" alt="">
+                                    <img src="/assets/asset 21.svg" alt="">
+                                </div>
+                                <!-- review text -->
+                                <div class="review-txt">I just passed the Exam. I would love to recommend everyone to take this lesson.</div>
+                                <div class="review-user">
+                                    <img src="assets/asset 22.jpeg" alt="">
+                                    <div class="review-userText">
+                                        <h3>Esthar Howard</h3>
+                                        <h4>a month ago</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- slide 2 -->
+                            <div class="swiper-slide slide">
+                                <!-- five stars -->
+                                <div class="fiveStars">
+                                    <img src="/assets/asset 21.svg" alt="">
+                                    <img src="/assets/asset 21.svg" alt="">
+                                    <img src="/assets/asset 21.svg" alt="">
+                                    <img src="/assets/asset 21.svg" alt="">
+                                    <img src="/assets/asset 21.svg" alt="">
+                                </div>
+                                <!-- review text -->
+                                <div class="review-txt">I found user interface course very relevant and helpful to clear the exam.</div>
+                                <div class="review-user">
+                                    <img src="assets/asset 23.jpeg" alt="">
+                                    <div class="review-userText">
+                                        <h3>Bessie Cooper</h3>
+                                        <h4>two month ago</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- slide 3 -->
+                            <div class="swiper-slide slide">
+                                <!-- five stars -->
+                                <div class="fiveStars">
+                                    <img src="/assets/asset 21.svg" alt="">
+                                    <img src="/assets/asset 21.svg" alt="">
+                                    <img src="/assets/asset 21.svg" alt="">
+                                    <img src="/assets/asset 21.svg" alt="">
+                                    <img src="/assets/asset 21.svg" alt="">
+                                </div>
+                                <!-- review text -->
+                                <div class="review-txt">Great course, learned a lot! "Instructor was awesome!"</div>
+                                <div class="review-user">
+                                    <img src="assets/asset 35.jpeg" alt="">
+                                    <div class="review-userText">
+                                        <h3>Bessie Cooper</h3>
+                                        <h4>two week ago</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- slide 4 -->
+                            <div class="swiper-slide slide">
+                                <!-- five stars -->
+                                <div class="fiveStars">
+                                    <img src="/assets/asset 21.svg" alt="">
+                                    <img src="/assets/asset 21.svg" alt="">
+                                    <img src="/assets/asset 21.svg" alt="">
+                                    <img src="/assets/asset 21.svg" alt="">
+                                    <img src="/assets/asset 21.svg" alt="">
+                                </div>
+                                <!-- review text -->
+                                <div class="review-txt">There were plenty of additional resources, including readings and external websites.</div>
+                                <div class="review-user">
+                                    <img src="assets/asset 41.jpeg" alt="">
+                                    <div class="review-userText">
+                                        <h3>Bessie Cooper</h3>
+                                        <h4>five month ago</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="swiper-button-next"></div> -->
+                        <!-- <div class="swiper-button-prev"></div> -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <!-- circle 3 -->
+                    <div class="circle3"></div>
+                </div>
+                <div class="review-media">
+                    <div class="circle1"></div>
+                    <div class="circle2"></div>
+                    <!-- <div class="circle3"></div> -->
+                </div>
+                <!-- <div class="circle3"></div> -->
+            </div>
+        </section>
