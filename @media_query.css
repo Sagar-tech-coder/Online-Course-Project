@@ -1942,8 +1942,8 @@
         width: 100%;
         padding-left: 10vw;
         display: grid;
-        grid-template-columns: 180px 180px;
-        grid-template-rows: 180px 180px;
+        grid-template-columns: 150px 150px;
+        grid-template-rows: 150px 150px;
         gap: 20px;
         /* background-color: #56d8e4; */
         /* border: 1px solid gray; */
@@ -2024,7 +2024,7 @@
         /* display: none; */
         height: 100%;
         width: 100%;
-        padding: 0 14vw;
+        padding: 0 5vw;
         margin: 10vh 0;
         /* background-color: #3498db; */
     }
@@ -2659,7 +2659,7 @@
     }
 
     .review-media{
-        height: 480px;
+        height: 440px;
         width: 100%;
         background-color: #FFD05C;
         background-image: url('/assets/asset\ 49.jpg');
