@@ -10551,8 +10551,8 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        /* background-color: #FFD05C;
-        width: 410px;
+        background-color: #FFD05C;
+        /*- width: 410px;
         padding: 30px;
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); */
     }
@@ -10698,7 +10698,7 @@
     #hero-section{
         height: 100%;
         width: 100%;
-        padding: 0 3vw;
+        padding: 0 4vw;
         display: flex;
         flex-wrap: wrap;
         gap: 25px;
@@ -10714,9 +10714,9 @@
     
     .hero-heading{
         color: #000;
-        font-size: 50px;
+        font-size: 35px;
         font-weight: bold;
-        line-height: 60px;
+        line-height: 45px;
         /* background-color: #9f01ea; */
     }
     
@@ -10724,7 +10724,7 @@
         color: #333333;
         font-size: 16px;
         line-height: 27px;
-        margin: 2vh 0 8vh 0;
+        margin: 2vh 0 7vh 0;
         /* background-color: #3498db; */
     }
     
@@ -10732,15 +10732,15 @@
         height: 100%;
         width: 100%;
         display: flex;
-        gap: 20px;
-        margin-bottom: 7vh;
+        gap: 15px;
+        margin-bottom: 5vh
         /* background-color: burlywood; */
     }
      
     .orange-btn{
         color: #fff;
         font-weight: bold;
-        padding: 15px 35px;
+        padding: 13px 22px;
         background-color: #ff7d55;
         border: 1px solid #ff7d55;
     }
@@ -10755,7 +10755,7 @@
     .black-btn{
         color: #fff;
         font-weight: bold;
-        padding: 15px 35px;
+        padding: 13px 22px;
         background-color: #000;
         border: 1px solid #000;
     }
@@ -10820,8 +10820,8 @@
         width: 100%;
         padding-left: 1vw;
         display: grid;
-        grid-template-columns: 190px 190px;
-        grid-template-rows: 190px 190px;
+        grid-template-columns: 150px 150px;
+        grid-template-rows: 150px 150px;
         justify-content: end;
         gap: 15px;
         /* background-color: #56d8e4; */
@@ -10829,8 +10829,8 @@
     }
     
     .hero-grid-img{
-        height: 180px;
-        width: 180px;
+        height: 150px;
+        width: 150px;
         position: relative;
         background-color: gray;
         /* border: 1px solid gray; */
@@ -10861,42 +10861,42 @@
     }
     
     .hero-circle-1{
-        height: 20px;
-        width: 20px;
+        height: 15px;
+        width: 15px;
         border-radius: 50%;
         background-color: #ff7d55;
         position: absolute;
-        top: 20px;
+        top: 5px;
     }
     
     .hero-circle-2{
-        height: 13px;
-        width: 13px;
+        height: 10px;
+        width: 10px;
         border-radius: 50%;
         background-color: #ff7d55;
         position: absolute;
         bottom: 10px;
-        right: 15px;
+        right: 10px;
     }
     
     .hero-circle-3{
-        height: 100px;
-        width: 100px;
+        height: 50px;
+        width: 50px;
         border-radius: 50%;
         background-color: #FFD05C;
         position: absolute;
-        bottom: -20px;
-        left: -30px;
+        bottom: -15px;
+        left: -18px;
         z-index: -1;
     }
     
     .hero-circle-4{
-        height: 20px;
-        width: 20px;
+        height: 15px;
+        width: 15px;
         border-radius: 50%;
         background-color: #FFD05C;
         position: absolute;
-        right: 0;
+        right: 5px;
     }
     
     /* first section (client-section) */
@@ -10991,7 +10991,7 @@
     }
     
     .learning-media-left{
-        height: 550px;
+        height: 395px;
         width: 100%;
         background-color: #56d8e4;
         background-image: url(/assets/asset\ 30.jpeg);
@@ -11004,8 +11004,8 @@
         height: 100px;
         width: 190px;
         position: absolute;
-        bottom: 20px;
-        right: 20px;
+        bottom: 15px;
+        right: 15px;
         backdrop-filter: blur(10px);
     }
     
@@ -11013,7 +11013,7 @@
         height: 100%;
         width: 100%;
         /* padding-left: 13%; */
-        padding: 5vh 0 0 0;
+        padding: 3vh 0 0 0;
         /* background-color: #9f01ea; */
     }
     
@@ -11032,7 +11032,8 @@
         height: 100%;
         width: 100%;
         padding: 3vh 0;
-        display: grid;
+        display: flex;
+        flex-wrap: wrap;
         grid-template-columns: 200px 200px;
         grid-template-rows: 27px 27px;
         /* justify-content: center; */
@@ -11052,7 +11053,7 @@
     #learning-btn{
         height: 100%;
         width: 100%;
-        margin-top: 5vh;
+        margin-top: 2vh;
         display: flex;
         /* background-color: #3498db; */
     }
@@ -11072,17 +11073,18 @@
     
     .section-heading{
         color: #000;
-        font-size: 45px;
+        font-size: 30px;
         font-weight: bold;
-        line-height: 60px;
+        line-height: 50px;
         text-align: center;
     }
     
     .sub-heading{
         color: #333333;
-        font-size: 16px;
-        line-height: 27px;
+        font-size: 14px;
+        line-height: 23px;
         text-align: center;
+        padding: 0 2vw;
     }
     
     .course-container{
@@ -11097,13 +11099,13 @@
     }
     
     .course-box{
-        height: 545px;
+        height: 420px;
         width: 100%;
         /* background-color: gray; */
     }
     
     .course-media{
-        height: 55%;
+        height: 45%;
         width: 100%;
         position: relative;
         /* background-color: #ff7d55; */
@@ -11137,40 +11139,40 @@
     }
     
     .course-info{
-        height: 45%;
+        height: 55%;
         width: 100%;
-        padding: 20px;
+        padding: 13px;
         background-color: #fff;
     }
     
     .box-heading{
         color: #000000;
-        font-size: 27px;
+        font-size: 20px;
         font-weight: bold;
-        line-height: 35px;
+        line-height: 25px;
     }
     
     .lesson-text{
         color: #ff7d55;
-        font-size: 12px;
+        font-size: 14px;
         font-weight: bold;
         line-height: 24px;
-        padding-bottom: 0;
+        padding: 10px 0;
     }
     
     .box-desc{
         color: #333333;
         text-align: start;
-        font-size: 20px;
-        line-height: 35px;
+        font-size: 15px;
+        line-height: 24px;
         padding: 6px 0;
     }
     
     .course-box-teacher{
-        padding-top: 0;
+        padding-top: 8px;
         display: flex;
         align-items: center;
-        gap: 20px;
+        gap: 13px;
     }
     
     .course-box-teacher img{
@@ -11201,7 +11203,7 @@
     #talent-section{
         height: 100%;
         width: 100%;
-        padding: 5vh 4vw;
+        padding: 5vh 5vw;
         margin: 0;
         display: flex;
         flex-wrap: wrap;
@@ -11217,14 +11219,15 @@
     }
     
     .talent-heading{
-        font-size: 40px;
+        font-size: 30px;
         font-weight: bold;
-        line-height: 60px;
+        line-height: 40px;
     }
     
     .talent-desc{
-        font-size: 16px;
-        line-height: 27px;
+        padding-top: 1vh;
+        font-size: 15px;
+        line-height: 24px;
     }
     
     #learning-btn{
@@ -11236,7 +11239,7 @@
     }
     
     .talent-media-right{
-        height: 570px;
+        height: 430px;
         width: 100%;
         background-color: #56d8e4;
         background-image: url(/assets/asset\ 48.jpg);
@@ -11276,21 +11279,21 @@
     .page-title{
         height: 100%;
         width: 100%;
-        font-size: 40px;
-        line-height: 60px;
+        font-size: 30px;
+        line-height: 40px;
         text-align: center;
         /* background-color: #9f01ea; */
     }
     
-    .sub-heading{
+    /* .sub-heading{
         height: 100%;
         width: 100%;
         font-size: 16px;
         line-height: 27px;
         text-align: center;
         padding: 0;
-        /* background-color: aquamarine; */
-    }
+        /* background-color: aquamarine;
+    } */
     
     .teacher-container{
         height: 100%;
@@ -11304,7 +11307,7 @@
     }
     
     .teacher-box{
-        height: 545px;
+        height: 410px;
         width: 100%;
         /* background-color: gray; */
     }
@@ -11331,13 +11334,13 @@
     
     h5{
         color: #000000;
-        font-size: 25px;
-        line-height: 40px;
+        font-size: 20px;
+        line-height: 20px;
     }
     
     .teacher-location{
         color: #333333;
-        font-size: 18px;
+        font-size: 15px;
         line-height: 25px;
         padding-top: 8px;
     }
@@ -11347,8 +11350,8 @@
     .still-container{
         height: 100%;
         width: 100%;
-        padding: 0 4vw;
-        margin: 5vh 0 10vh 0;
+        padding: 0 3vw;
+        margin: 10vh 0;
         /* background-color: green; */
     }
 
@@ -11362,9 +11365,9 @@
     .still-heading{
         text-align: center;
         color: #000000;
-        font-size: 30px;
+        font-size: 26px;
         font-weight: bold;
-        line-height: 45px;
+        line-height: 35px;
     }
 
     .still-desc{
@@ -11378,7 +11381,7 @@
         height: 100%;
         width: 100%;
         margin: auto;
-        padding-top: 35px;
+        padding-top: 28px;
         display: flex;
         flex-wrap: wrap;
         text-align: center;
@@ -11428,7 +11431,7 @@
     .news-container{
         height: 100%;
         width: 100%;
-        margin-top: 6vh;
+        margin-top: 3vh;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -11437,7 +11440,7 @@
     }
     
     .news-box{
-        height: 545px;
+        height: 420px;
         width: 100%;
         /* background-color: gray; */
     }
@@ -11486,7 +11489,7 @@
     .date-text{
         color: #ff7d55;
         height: 18px;
-        font-size: 15px;
+        font-size: 12px;
         line-height: 27px;
         font-weight: bold;
         margin-bottom: 10px;
@@ -11499,9 +11502,9 @@
     
     .box-heading{
         color: #000000;
-        font-size: 27px;
+        font-size: 18px;
         font-weight: bold;
-        line-height: 35px;
+        line-height: 27px;
     }
     
     /* .lesson-text{
@@ -11515,13 +11518,13 @@
     .news-box-desc{
         color: #333333;
         text-align: start;
-        font-size: 18px;
-        line-height: 22px;
-        margin: 15px 0px 25px 0px;
+        font-size: 14px;
+        line-height: 21px;
+        margin: 8px 0px 14px 0px;
     }
 
     .news-readMore{
-        font-size: 20px;
+        font-size: 13px;
     }
     
     .news-readMore:hover{
@@ -11560,7 +11563,7 @@
     }
     
     .review-media{
-        height: 510px;
+        height: 470px;
         width: 100%;
         background-color: #FFD05C;
         background-image: url('/assets/asset\ 49.jpg');
@@ -11576,8 +11579,8 @@
         border-radius: 50%;
         background-color: #ff7d55;
         position: absolute;
-        top: 40px;
-        right: 50px;
+        top: 20px;
+        right: 40px;
     }
     
     .circle2{
@@ -11586,7 +11589,7 @@
         border-radius: 50%;
         background-color: #FFD05C;
         position: absolute;
-        top: 100px;
+        top: 80px;
     }
     
     .circle3{
@@ -11616,7 +11619,7 @@
     }
     
     .fiveStars{
-        height: 20px;
+        height: 15px;
         /* width: 755px; */
         margin-bottom: 20px;
         display: flex;
@@ -11625,18 +11628,18 @@
     
     .review-txt{
         height: 100%; /* 225px */
-        font-size: 35px;
-        line-height: 45px;
+        font-size: 17px;
+        line-height: 27px;
     }
     
     .review-user{
         display: flex;
-        margin-top: 50px;
+        margin-top: 15px;
     }
     
     .review-user img{
-        height: 50px;
-        width: 50px;
+        height: 30px;
+        width: 30px;
         border-radius: 50%;
     }
     
@@ -11646,13 +11649,13 @@
     }
     
     .review-userText h3{
-        font-size: 16px;
-        line-height: 27px;
+        font-size: 12px;
+        line-height: 15px;
     }
     
     .review-userText h4{
-        font-size: 14px;
-        line-height: 21px;
+        font-size: 10px;
+        line-height: 15px;
     }
     
     /* Footer */
@@ -11697,7 +11700,8 @@
 
     .ft-link a{
         color: #fff;
-        margin-right: 30px;
+        font-size: 13px;
+        margin-right: 15px;
     }
 
     .ft-link a:hover{
