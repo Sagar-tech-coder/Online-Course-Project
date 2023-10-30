@@ -519,8 +519,15 @@ form .signup-link a:hover{
 .feature-item{
     height: 100%;
     width: 30%;
-    /* padding: 2vh 2vw; */
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 2vh 1vw;
     /* background-color: gray; */
+}
+
+.feature-item:hover{
+    box-shadow: 10px 5px 5px gray;
+    transition: all 0.8s ease;
 }
 
 .feature-icon img{
@@ -816,7 +823,7 @@ form .signup-link a:hover{
 #teacher-section{
     height: 100%;
     width: 100%;
-    padding: 5vh 5vw;
+    padding: 0 5vw;
     /* background-color: #3498db; */
 }
 
