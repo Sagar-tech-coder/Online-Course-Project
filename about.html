@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About EcoLabs</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="@media_about.css">
+    <!-- favicon -->
+    <link rel="icon" href="/assets/logo.jpg">
+    <!-- font awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <!-- maincontainer -->
+    <div id="maincontainer">
+        <!-- small heading -->
+        <div class="sm-heading h-8 flex w-full items-center relative py-10px px-40px text-center bg-yellow-400">
+            <div class="text-heading w-full">Let's join new friends and new year learning experience. click for get started!</div>
+            <a class="text-delete" href="#"><img src="/assets/asset 0.svg" alt=""></a>
+        </div>
+        <!-- navbar -->
+        <div id="navbar">
+            <div class="logo"><a href="index.html"><img src="/assets/asset 1.svg" alt=""></a></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="teachers.html">Teachers</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html" class="activated">About</a></li>
+                <li><a href="#" id="contact-text" onclick="blur()">Login</a></li>
+                <!-- <label for="show"><li><a href="#" for="show" id="contact-text">Contact</a></li></label> -->
+            </ul>
+        </div>
+        <!-- Popup Login/SignUp -->
+        <div id="popup">
+            <div class="popup-container">
+                <!-- <a href="#">
+                    <i class="fa-regular fa-rectangle-xmark"></i>
+                </a> -->
+                <div class="login-head">Login Form
+                    <i class="fa-regular fa-rectangle-xmark"></i>
+                </div>
+                <form action="#">
+                    <div class="data">
+                        <label for="Email or Phone: ">
+                            <input type="email" required placeholder="Enter your email">
+                        </label>
+                    </div>
+                    <div class="data">
+                        <label for="Password: ">
+                            <input type="password" required placeholder="Enter your password">
+                        </label>
+                    </div>
+                    <div class="forgot-password">
+                        <a href="#">Forgot Passowrd</a>
+                    </div>
+                    <div class="loginBtn">
+                        <div class="inner"></div>
+                        <button type="submit">Login</button>
+                    </div>
+                    <div class="signup-link">Not a member?<a href="#"> SignUp now</a></div>
+                </form>
+            </div>
+        </div>
+        <!-- Overlay -->
+        <div class="overlay" onclick="closeModal()"></div>
+        <!-- Hamburger Menu -->
+        <nav id="hamburger-nav">
+            <input type="checkbox" id="check">
+            <!-- <label for="check">
+                <i class="ri-menu-3-line menu-btn"></i>
+            </label> -->
+            <div class="logo">
+                <a href="index.html"><img src="/assets/asset 1.svg" alt=""></a>
+                <label for="check" class="check-btn">
+                    <i class="fa-solid fa-align-right menu-btn"></i>
+                </label>
+                <!-- <i class="ri-menu-3-line menu-btn"></i> -->
+                <!-- <i class="ri-close-line close-btn"></i> -->
+            </div>
+            <ul class="mainMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="teachers.html">Teachers</a></li>
+                <li><a href="contact.html" >Contact</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="#"  id="txt-contact">Login</a></li>
+            </ul>
+        </nav>
+        <!-- maincontainer ends -->
+    </div>
+</body>
+</html>
