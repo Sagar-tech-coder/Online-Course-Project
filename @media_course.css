@@ -1984,6 +1984,10 @@
         font-size: 20px;
         line-height: 30px;
     }
+
+    h5:hover{
+        color: #000;
+    }
     
     .lesson-txt{
         color: #ff7d55;
@@ -2007,6 +2011,10 @@
     
     .teacher-name{
         margin-left: 10px;
+    }
+
+    .teacher-name:hover{
+        color: #000;
     }
     
     .teacher-name span{
