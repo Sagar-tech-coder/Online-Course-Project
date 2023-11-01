@@ -396,17 +396,17 @@
     }
     
     #course-img4{
-        background-image: url(/assets/asset\ 32.jpeg);
+        background-image: url(/course_assets/asset\ 15.jpeg);
         background-size: cover;
     }
     
     #course-img5{
-        background-image: url(/assets/asset\ 43.jpeg);
+        background-image: url(/course_assets/asset\ 17.jpeg);
         background-size: cover;
     }
     
     #course-img6{
-        background-image: url(/assets/asset\ 32.jpeg);
+        background-image: url(/course_assets/asset\ 19.jpeg);
         background-size: cover;
     }
     
@@ -1036,17 +1036,17 @@
     }
     
     #course-img4{
-        background-image: url(/assets/asset\ 32.jpeg);
+        background-image: url(/course_assets/asset\ 15.jpeg);
         background-size: cover;
     }
     
     #course-img5{
-        background-image: url(/assets/asset\ 43.jpeg);
+        background-image: url(/course_assets/asset\ 17.jpeg);
         background-size: cover;
     }
     
     #course-img6{
-        background-image: url(/assets/asset\ 32.jpeg);
+        background-image: url(/course_assets/asset\ 19.jpeg);
         background-size: cover;
     }
     
@@ -1906,6 +1906,7 @@
     .course-list{
         height: 100%;  /* 562vh */
         width: 100%;
+        padding: 0;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -1955,17 +1956,17 @@
     }
     
     #course-img4{
-        background-image: url(/assets/asset\ 32.jpeg);
+        background-image: url(/course_assets/asset\ 15.jpeg);
         background-size: cover;
     }
     
     #course-img5{
-        background-image: url(/assets/asset\ 43.jpeg);
+        background-image: url(/course_assets/asset\ 17.jpeg);
         background-size: cover;
     }
     
     #course-img6{
-        background-image: url(/assets/asset\ 32.jpeg);
+        background-image: url(/course_assets/asset\ 19.jpeg);
         background-size: cover;
     }
     
@@ -2616,17 +2617,17 @@
     }
     
     #course-img4{
-        background-image: url(/assets/asset\ 32.jpeg);
+        background-image: url(/course_assets/asset\ 15.jpeg);
         background-size: cover;
     }
     
     #course-img5{
-        background-image: url(/assets/asset\ 43.jpeg);
+        background-image: url(/course_assets/asset\ 17.jpeg);
         background-size: cover;
     }
     
     #course-img6{
-        background-image: url(/assets/asset\ 32.jpeg);
+        background-image: url(/course_assets/asset\ 19.jpeg);
         background-size: cover;
     }
     

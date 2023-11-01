@@ -365,6 +365,7 @@ form .signup-link a:hover{
 .course-list{
     height: 100%;
     width: 100%;
+    padding: 0 3vw;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -376,6 +377,11 @@ form .signup-link a:hover{
     height: 520px;
     width: 31%;
     /* background-color: green; */
+}
+
+.course-box:hover{
+    box-shadow: 2px 3px 10px #d5cbbf;
+    transition: all 0.7s ease;
 }
 
 .course-media{
@@ -413,17 +419,17 @@ form .signup-link a:hover{
 }
 
 #course-img4{
-    background-image: url(/assets/asset\ 32.jpeg);
+    background-image: url(/course_assets/asset\ 15.jpeg);
     background-size: cover;
 }
 
 #course-img5{
-    background-image: url(/assets/asset\ 43.jpeg);
+    background-image: url(/course_assets/asset\ 15.jpeg);
     background-size: cover;
 }
 
 #course-img6{
-    background-image: url(/assets/asset\ 32.jpeg);
+    background-image: url(/course_assets/asset\ 19.jpeg);
     background-size: cover;
 }
 
@@ -431,7 +437,7 @@ form .signup-link a:hover{
     width: 100%;
     height: 45%;
     padding: 20px;
-    border: 0.1px solid #000;
+    border: 0.1px solid gray;
     border-top: none;
     /* background-color: #ff7d55; */
 }

@@ -13,7 +13,7 @@ textDelete.addEventListener("click", function(){
 contactText.addEventListener("click", function(){
   // c.style.filter = "blur(5px)";
   document.querySelector(".popup-container").style.display = "block";
-  document.body.style.filter = "blur(5px)";
+  // document.body.style.filter = "blur(5px)";
   showPopup.classList.add("active");
   overlay.classList.add("overlayactive");
 });
