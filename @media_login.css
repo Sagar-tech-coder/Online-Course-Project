@@ -545,7 +545,7 @@
     
     #maincontainer{
         background-color: white;
-        height: 87vh;
+        height: 85vh;
         width: 90vw;
         margin: 7vh auto;
         padding: 20px 15px;
@@ -596,7 +596,7 @@
     .input-email{
         height: 50px;
         width: 100%;
-        padding: 20px;
+        padding: 15px;
         font-size: 15px;
         margin: 30px 0;
     }
@@ -604,12 +604,14 @@
     .password{
         height: 50px;
         width: 100%;
-        padding: 20px;
+        padding: 15px;
         font-size: 15px;
         margin-bottom: 30px;
     }
     
     .login-flex{
+        text-align: center;
+        align-items: center;
         display: flex;
         justify-content: space-between;
     }
@@ -635,7 +637,7 @@
     }
     
     .forgot-div{
-        margin-top: 30px;
+        margin-top: 15px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
