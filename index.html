@@ -7,6 +7,7 @@
     <!-- slider js -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="blur.css"> -->
     <link rel="stylesheet" href="@media_query.css">
     <!-- favicon -->
     <link rel="icon" href="/assets/logo.jpg">
@@ -35,41 +36,23 @@
                 <li><a href="teachers.html">Teachers</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="#" id="contact-text" onclick="blur()">Login</a></li>
+                <li><a href="login.html" id="contact-text">Login</a></li>
                 <!-- <label for="show"><li><a href="#" for="show" id="contact-text">Contact</a></li></label> -->
             </ul>
         </div>
-        <!-- Popup Login/SignUp -->
-        <div id="popup">
-            <div class="popup-container">
-                <!-- <a href="#">
-                    <i class="fa-regular fa-rectangle-xmark"></i>
-                </a> -->
-                <div class="login-head">Login Form
-                    <i class="fa-regular fa-rectangle-xmark"></i>
-                </div>
-                <form action="#">
-                    <div class="data">
-                        <label for="Email or Phone: ">
-                            <input type="email" required placeholder="Enter your email">
-                        </label>
-                    </div>
-                    <div class="data">
-                        <label for="Password: ">
-                            <input type="password" required placeholder="Enter your password">
-                        </label>
-                    </div>
-                    <div class="forgot-password">
-                        <a href="#">Forgot Passowrd</a>
-                    </div>
-                    <div class="loginBtn">
-                        <div class="inner"></div>
-                        <button type="submit">Login</button>
-                    </div>
-                    <div class="signup-link">Not a member?<a href="#"> SignUp now</a></div>
-                </form>
-            </div>
+        <!-- blur code starts ########################################################################## -->
+        <!-- <div class="cont">
+            <button id="button">Click me</button>
         </div>
+        <div class="modal">
+            <div class="content">
+                <div class="close"></div>
+                <h1> Hello, World!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem praesentium quod veniam voluptatum, tempora a quis sequi ipsam explicabo natus delectus blanditiis assumenda doloremque facere tenetur rerum molestias? Necessitatibus, aperiam.</p>
+                <p>Sequi porro laudantium eaque modi illum iure aperiam esse voluptatem corporis deleniti. Nulla placeat iusto, quia veritatis quisquam quas dicta aut magnam est velit porro voluptate error illo dolorem sint?</p>
+            </div>
+        </div> -->
+        <!-- blur code ends ############################################################################ -->
         <!-- Overlay -->
         <div class="overlay" onclick="closeModal()"></div>
         <!-- Hamburger Menu -->
@@ -92,7 +75,7 @@
                 <li><a href="teachers.html">Teachers</a></li>
                 <li><a href="contact.html" >Contact</a></li>
                 <li><a href="about.html" >About</a></li>
-                <li><a href="#"  id="txt-contact">Login</a></li>
+                <li><a href="login.html"  id="txt-contact">Login</a></li>
             </ul>
         </nav>
         <!-- hero section -->
@@ -170,7 +153,7 @@
                 <!-- feature title -->
                 <div class="feature-title">Courses taught by real-world experts</div>
                 <!-- feature desc -->
-                <div class="feature-desc">Our teachers are experts excited to share their wisdom, experience, & trusted tools with you.</div>
+                <div class="feature-desc">Discover our courses taught by real-world experts on our online platform. Our instructors are experienced professionals.</div>
             </div>
             <!-- feature-item 3 -->
             <div class="feature-item">
@@ -587,6 +570,9 @@
         <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
         <!-- adding JS -->
         <script src="script.js"></script>
+
+        <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script> -->
+        <!-- <script src="blur.js"></script> -->
     </div>
 </body>
 </html>

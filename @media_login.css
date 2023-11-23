@@ -1,0 +1,812 @@
+@media screen and (max-width: 1599px) {
+    body{
+        background-color: gray;
+    }
+    
+    #maincontainer{
+        background-color: white;
+        height: 90vh;
+        width: 35vw;
+        margin: 5vh auto;
+        padding: 20px 40px;
+    }
+    
+    h2{
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2rem;
+        border: 2px solid white;
+        padding: 20px 0 0 0;
+    }
+    
+    .fb{
+        margin: 30px 0;
+        color: white;
+        padding: 20px;
+        border: 2px solid blue;
+        border-radius: 13px;
+        background-color: blue;
+    }
+    
+    .fb a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .gmail{
+        margin: 30px 0;
+        color: white;
+        padding: 20px;
+        border: 2px solid chocolate;
+        border-radius: 13px;
+        background-color: chocolate;
+    }
+    
+    .gmail a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    hr{
+        height: 5px;
+        background-color: gray;
+    }
+    
+    .input-email{
+        height: 50px;
+        width: 100%;
+        padding: 20px;
+        font-size: 15px;
+        margin: 30px 0;
+    }
+    
+    .password{
+        height: 50px;
+        width: 100%;
+        padding: 20px;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    
+    .login-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    input[type="checkbox"]{
+        outline: 3px solid yellow;
+        color: yellow;
+        background-color: yellow;
+    }
+    
+    .login-btn{
+        color: aliceblue;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 10px 25px;
+        border: 2px solid green;
+        background-color: green;
+    }
+    .login-btn:hover{
+        color: green;
+        background-color: white;
+        transition: all 0.9s ease;
+    }
+    
+    .forgot-div{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 20px;
+        background-color: gray;
+    }
+    
+    .forgot{
+        color: aliceblue;
+    }
+    
+    .clickme{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .clickme a:hover{
+        text-decoration: none;
+    }
+    
+    .sign-up{
+        color: white;
+        text-decoration: none;
+        padding: 10px 25px;
+        border: 2px solid goldenrod;
+        background-color: goldenrod;
+    }
+    
+    .sign-up:hover{
+        color: goldenrod;
+        background-color: white;
+        transition: all 0.9s ease;
+    }
+}
+
+/* ################################################################################################## */
+
+@media screen and (max-width: 1359px) {
+    body{
+        background-color: gray;
+    }
+    
+    #maincontainer{
+        background-color: white;
+        height: 90vh;
+        width: 40vw;
+        margin: 5vh auto;
+        padding: 20px 40px;
+    }
+    
+    h2{
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2rem;
+        border: 2px solid white;
+        padding: 20px 0 0 0;
+    }
+    
+    .fb{
+        margin: 30px 0;
+        color: white;
+        padding: 20px;
+        border: 2px solid blue;
+        border-radius: 13px;
+        background-color: blue;
+    }
+    
+    .fb a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .gmail{
+        margin: 30px 0;
+        color: white;
+        padding: 20px;
+        border: 2px solid chocolate;
+        border-radius: 13px;
+        background-color: chocolate;
+    }
+    
+    .gmail a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    hr{
+        height: 5px;
+        background-color: gray;
+    }
+    
+    .input-email{
+        height: 50px;
+        width: 100%;
+        padding: 20px;
+        font-size: 15px;
+        margin: 30px 0;
+    }
+    
+    .password{
+        height: 50px;
+        width: 100%;
+        padding: 20px;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    
+    .login-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    input[type="checkbox"]{
+        outline: 3px solid yellow;
+        color: yellow;
+        background-color: yellow;
+    }
+    
+    .login-btn{
+        color: aliceblue;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 10px 25px;
+        border: 2px solid green;
+        background-color: green;
+    }
+    .login-btn:hover{
+        color: green;
+        background-color: white;
+        transition: all 0.9s ease;
+    }
+    
+    .forgot-div{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 20px;
+        background-color: gray;
+    }
+    
+    .forgot{
+        color: aliceblue;
+    }
+    
+    .clickme{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .clickme a:hover{
+        text-decoration: none;
+    }
+    
+    .sign-up{
+        color: white;
+        text-decoration: none;
+        padding: 10px 25px;
+        border: 2px solid goldenrod;
+        background-color: goldenrod;
+    }
+    
+    .sign-up:hover{
+        color: goldenrod;
+        background-color: white;
+        transition: all 0.9s ease;
+    }
+}
+
+/* ################################################################################################## */
+
+@media screen and (max-width: 1199px) {
+    body{
+        background-color: gray;
+    }
+    
+    #maincontainer{
+        background-color: white;
+        height: 90vh;
+        width: 42vw;
+        margin: 5vh auto;
+        padding: 20px 40px;
+    }
+    
+    h2{
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2rem;
+        border: 2px solid white;
+        padding: 20px 0 0 0;
+    }
+    
+    .fb{
+        margin: 30px 0;
+        color: white;
+        padding: 20px;
+        border: 2px solid blue;
+        border-radius: 13px;
+        background-color: blue;
+    }
+    
+    .fb a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .gmail{
+        margin: 30px 0;
+        color: white;
+        padding: 20px;
+        border: 2px solid chocolate;
+        border-radius: 13px;
+        background-color: chocolate;
+    }
+    
+    .gmail a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    hr{
+        height: 5px;
+        background-color: gray;
+    }
+    
+    .input-email{
+        height: 50px;
+        width: 100%;
+        padding: 20px;
+        font-size: 15px;
+        margin: 30px 0;
+    }
+    
+    .password{
+        height: 50px;
+        width: 100%;
+        padding: 20px;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    
+    .login-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    input[type="checkbox"]{
+        outline: 3px solid yellow;
+        color: yellow;
+        background-color: yellow;
+    }
+    
+    .login-btn{
+        color: aliceblue;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 10px 25px;
+        border: 2px solid green;
+        background-color: green;
+    }
+    .login-btn:hover{
+        color: green;
+        background-color: white;
+        transition: all 0.9s ease;
+    }
+    
+    .forgot-div{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 20px;
+        background-color: gray;
+    }
+    
+    .forgot{
+        color: aliceblue;
+    }
+    
+    .clickme{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .clickme a:hover{
+        text-decoration: none;
+    }
+    
+    .sign-up{
+        color: white;
+        text-decoration: none;
+        padding: 10px 25px;
+        border: 2px solid goldenrod;
+        background-color: goldenrod;
+    }
+    
+    .sign-up:hover{
+        color: goldenrod;
+        background-color: white;
+        transition: all 0.9s ease;
+    }
+}
+
+/* ################################################################################################ */
+
+@media screen and (max-width: 575px) {
+    body{
+        background-color: gray;
+    }
+    
+    #maincontainer{
+        background-color: white;
+        height: 90vh;
+        width: 90vw;
+        margin: 5vh auto;
+        padding: 20px 40px;
+    }
+    
+    h2{
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2rem;
+        border: 2px solid white;
+        padding: 20px 0 0 0;
+    }
+    
+    .fb{
+        margin: 30px 0;
+        color: white;
+        padding: 20px;
+        border: 2px solid blue;
+        border-radius: 13px;
+        background-color: blue;
+    }
+    
+    .fb a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .gmail{
+        margin: 30px 0;
+        color: white;
+        padding: 20px;
+        border: 2px solid chocolate;
+        border-radius: 13px;
+        background-color: chocolate;
+    }
+    
+    .gmail a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    hr{
+        height: 5px;
+        background-color: gray;
+    }
+    
+    .input-email{
+        height: 50px;
+        width: 100%;
+        padding: 20px;
+        font-size: 15px;
+        margin: 30px 0;
+    }
+    
+    .password{
+        height: 50px;
+        width: 100%;
+        padding: 20px;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    
+    .login-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    input[type="checkbox"]{
+        outline: 3px solid yellow;
+        color: yellow;
+        background-color: yellow;
+    }
+    
+    .login-btn{
+        color: aliceblue;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 10px 25px;
+        border: 2px solid green;
+        background-color: green;
+    }
+    .login-btn:hover{
+        color: green;
+        background-color: white;
+        transition: all 0.9s ease;
+    }
+    
+    .forgot-div{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 20px;
+        background-color: gray;
+    }
+    
+    .forgot{
+        color: aliceblue;
+    }
+    
+    .clickme{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .clickme a:hover{
+        text-decoration: none;
+    }
+    
+    .sign-up{
+        color: white;
+        text-decoration: none;
+        padding: 10px 25px;
+        border: 2px solid goldenrod;
+        background-color: goldenrod;
+    }
+    
+    .sign-up:hover{
+        color: goldenrod;
+        background-color: white;
+        transition: all 0.9s ease;
+    }
+}
+
+/* ################################################################################################### */
+
+@media screen and (max-width: 479px) {
+    body{
+        background-color: gray;
+    }
+    
+    #maincontainer{
+        background-color: white;
+        height: 87vh;
+        width: 90vw;
+        margin: 7vh auto;
+        padding: 20px 15px;
+    }
+    
+    h2{
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2rem;
+        border: 2px solid white;
+        padding: 20px 0 0 0;
+    }
+    
+    .fb{
+        margin: 30px 0;
+        color: white;
+        padding: 20px;
+        border: 2px solid blue;
+        border-radius: 13px;
+        background-color: blue;
+    }
+    
+    .fb a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .gmail{
+        margin: 30px 0;
+        color: white;
+        padding: 20px;
+        border: 2px solid chocolate;
+        border-radius: 13px;
+        background-color: chocolate;
+    }
+    
+    .gmail a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    hr{
+        height: 5px;
+        background-color: gray;
+    }
+    
+    .input-email{
+        height: 50px;
+        width: 100%;
+        padding: 20px;
+        font-size: 15px;
+        margin: 30px 0;
+    }
+    
+    .password{
+        height: 50px;
+        width: 100%;
+        padding: 20px;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    
+    .login-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    input[type="checkbox"]{
+        outline: 3px solid yellow;
+        color: yellow;
+        background-color: yellow;
+    }
+    
+    .login-btn{
+        color: aliceblue;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 10px 25px;
+        border: 2px solid green;
+        background-color: green;
+    }
+    .login-btn:hover{
+        color: green;
+        background-color: white;
+        transition: all 0.9s ease;
+    }
+    
+    .forgot-div{
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px 10px;
+        background-color: gray;
+    }
+    
+    .forgot{
+        color: aliceblue;
+        font-size: 14px;
+    }
+    
+    .clickme{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .clickme a:hover{
+        text-decoration: none;
+    }
+    
+    .sign-up{
+        margin: 5px 0;
+        width: 100%;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px 5px;
+        border: 2px solid goldenrod;
+        background-color: goldenrod;
+    }
+    
+    .sign-up:hover{
+        color: goldenrod;
+        background-color: white;
+        transition: all 0.9s ease;
+    }
+}
+
+/* ################################################################################################### */
+
+@media screen and (max-width: 320px) {
+    body{
+        background-color: gray;
+    }
+    
+    #maincontainer{
+        background-color: white;
+        height: 86vh;
+        width: 90vw;
+        margin: 8vh auto;
+        padding: 20px 20px;
+    }
+    
+    h2{
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2rem;
+        border: 2px solid white;
+        padding: 20px 0 0 0;
+    }
+    
+    .fb{
+        margin: 30px 0;
+        color: white;
+        padding: 20px;
+        border: 2px solid blue;
+        border-radius: 13px;
+        background-color: blue;
+    }
+    
+    .fb a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .gmail{
+        margin: 30px 0;
+        color: white;
+        padding: 20px;
+        border: 2px solid chocolate;
+        border-radius: 13px;
+        background-color: chocolate;
+    }
+    
+    .gmail a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    hr{
+        height: 5px;
+        background-color: gray;
+    }
+    
+    .input-email{
+        height: 50px;
+        width: 100%;
+        padding: 20px;
+        font-size: 15px;
+        margin: 30px 0;
+    }
+    
+    .password{
+        height: 50px;
+        width: 100%;
+        padding: 20px;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    
+    .login-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    input[type="checkbox"]{
+        outline: 3px solid yellow;
+        color: yellow;
+        background-color: yellow;
+    }
+    
+    .login-btn{
+        color: aliceblue;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 10px 25px;
+        border: 2px solid green;
+        background-color: green;
+    }
+    .login-btn:hover{
+        color: green;
+        background-color: white;
+        transition: all 0.9s ease;
+    }
+    
+    .forgot-div{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 20px;
+        background-color: gray;
+    }
+    
+    .forgot{
+        color: aliceblue;
+    }
+    
+    .clickme{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .clickme a:hover{
+        text-decoration: none;
+    }
+    
+    .sign-up{
+        color: white;
+        text-decoration: none;
+        padding: 10px 25px;
+        border: 2px solid goldenrod;
+        background-color: goldenrod;
+    }
+    
+    .sign-up:hover{
+        color: goldenrod;
+        background-color: white;
+        transition: all 0.9s ease;
+    }
+}

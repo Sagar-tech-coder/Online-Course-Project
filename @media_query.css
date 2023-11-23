@@ -10547,6 +10547,7 @@
     /* Popup Login Form */
     
     .popup-container{
+        display: flex;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -10558,7 +10559,7 @@
     }
     
     .popup-container{
-        display: none;
+        display: flex;
         background-color: #FFD05C;
         width: 410px;
         padding: 30px;
@@ -10610,6 +10611,10 @@
         height: 45px;
         width: 100%;
         margin: 40px 0;
+    }
+
+    form{
+        display: block;
     }
     
     form .data label{
